@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Codehelp Clone</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="https://unpkg.com/feather-icons"></script>
+</head>
+
+<body>
+    <div class="relative bg-[url('assets/blurry-gradient.svg')] bg-no-repeat bg-cover bg-opacity-0">
+        <nav class="w-full sticky top-0 shadow-[0_4px_10px_0_rgba(157,157,157,0.2)] backdrop-blur-md z-[999] min-h-[80px] flex items-center">
+            <div class="flex max-w-[1300px] w-11/12 justify-between mx-auto">
+                <div class="flex items-center my-2">
+                    <img src="assets/logoSvg.svg" alt="logo" loading="lazy">
+    
+                </div>
+                <ul class="hidden lg:flex gap-x-6 items-center py-7">
+                    <li class="md:text-lg font-rubik">About Us</li>
+                    <li class="md:text-lg font-rubik">Courses</li>
+                    <li class="md:text-lg font-rubik">Games</li>
+                    <li class="md:text-lg font-rubik">Contacts</li>
+                </ul>
+                <div class="hidden lg:flex gap-2 items-center font-rubik">
+                    <button class="rounded-md md:text-lg py-2 outline-brand px-8 outline outline-1">Dashboard</button>
+                    <button class="rounded-md md:text-lg py-2 px-8 bg-brand text-white flex gap-x-3 items-center">
+                        Login
+                        <i data-feather="download" class="-rotate-90 text-white "></i>
+                    </button>
+                    <i data-feather="moon" class="w-9 h-9 text-brand cursor-pointer"></i>
+                </div>
+                <div class="flex lg:hidden gap-x-1 items-center my-3 cursor-pointer">
+                    <i data-feather="menu" class="w-9 h-9"></i>
+                    <i data-feather="moon" class="w-7 h-7 text-brand"></i>
+                </div>
+            </div>
+        </nav>
+    
+        <!-- Hero Section -->
+        <div class="w-full relative">
+            <div class="flex flex-col-reverse md:flex-row lg:max-w-[1300px] w-11/12 justify-between mx-auto md:h-[600px] lg:h-[800px]">
+                <div class="w-full md:w-[50%] h-full font-rubik flex flex-col  justify-center gap-y-5">
+                    <h2 class="text-3xl md:text-4xl xl:text-6xl font-semibold text-lightBlack text-center md:text-start"><span class="text-brand">Learn</span> With</h2>
+                    <p class="text-center mx-auto md:mx-0 md:text-start text-xl md:text-2xl xl:text-4xl text-lightBlack2 max-w-[500px]">The Ultimate Guide To Ace SDE Interviews.</p>
+                    <div class="flex gap-x-3 mx-auto md:mx-0">
+                        <button class="bg-brand px-7 py-4 text-lg rounded-md text-white">View Courses</button>
+                        <button class="outline outline-brand outline-1 px-7 py-4 text-lg rounded-md">Watch Video</button>
+                    </div>
+                    <div class="relative flex flex-col gap-y-5 xl:flex-row md:gap-y-0 min-h-[4rem] mt-8 gap-x-3 sm:items-center md:items-start xl:items-center ">
+                        <div class="relative mx-auto md:mx-0 w-5/12 sm:w-4/12 flex items-center min-h-[4rem]">
+                            <img src="assets/user1.jpeg" alt="" class="w-[2.5rem] md:w-[3rem] md:h-[3rem] absolute rounded-full z-[1] left-0">
+                            <img src="assets/user2.png" alt="" class="w-[2.5rem] md:w-[3rem] md:h-[3rem] absolute rounded-full z-[2] left-0 translate-x-8 md:translate-x-10">
+                            <img src="assets/user3.png" alt="" class="w-[2.5rem] md:w-[3rem] md:h-[3rem] absolute rounded-full z-[3] left-0 translate-x-16 md:translate-x-20">
+                            <img src="assets/user4.jpeg" alt="" class="w-[2.5rem] md:w-[3rem] md:h-[3rem] absolute rounded-full z-[4] left-0 translate-x-24 md:translate-x-28">
+                            <img src="assets/user5.jpeg" alt="" class="w-[2.5rem] md:w-[3rem] md:h-[3rem] absolute rounded-full z-[5] left-0 translate-x-32 md:translate-x-36">
+                        </div>
+                        <div class="relative flex flex-col leading-5 items-center md:items-start">
+                            <h2 class="font-semibold">20000+</h2>
+                            <p class="text-paraColor">Happy Students</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full relative md:w-[50%] py-[5rem] h-full flex items-center">
+                    <img src="assets/heroSvg.svg" alt="" class="w-full h-full" loading="lazy">
+                    <img src="assets/heroAnimationImage1.png" alt="" class="w-[7rem] lg:w-[10rem] absolute top-16 left-44 lg:left-56 z-20 animate-moveY" loading="lazy">
+                    <img src="assets/heroAnimationImage2.png" alt="" class="w-[7rem] lg:w-[10rem] absolute bottom-40 lg:bottom-56 right-16 lg:right-28 z-20 animate-moveY" loading="lazy">
+                    <img src="assets/heroAnimationImage3.png" alt="" class="w-[7rem] lg:w-[10rem] absolute bottom-40 lg:bottom-56 left-16 lg:left-24 z-20 animate-moveY" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        feather.replace();
+    </script>
+</body>
+
+</html>
