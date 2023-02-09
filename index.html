@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Codehelp Clone</title>
     <link rel="stylesheet" href="main.css">
+    <link rel="shortcut icon" href="assets/faviconLogo.png" type="image/x-icon">
     <script src="https://unpkg.com/feather-icons"></script>
 </head>
 
@@ -225,10 +226,51 @@
         </div>
     </section>
 
+    <!-- Meet your instructor -->
+    <section class="w-full font-rubik relative overflow-hidden">
+        <img src='assets/founderBg.svg' alt="" class="absolute -top-[400px] lg:-top-[900px] w-full right-0 object-cover -z-[100]">
+        <div class="absolute w-[400px] h-[400px] rounded-full blur-[100px] bg-brand/10 bottom-10 left-0"></div>
+        <div class="w-11/12 max-w-[1300px] mx-auto flex flex-col gap-y-[5rem] py-16">
+            <div class="flex justify-between items-center relative py-4">
+                <h2 class="text-xl md:text-4xl lg:text-5xl font-semibold ">Meet your <span class="text-brand">Instructor</span></h2>
+                <button class="px-3 py-2 text-sm sm:text-base lg:text-lg md:px-5 md:py-3 bg-brand text-white rounded-md">Know More</button>
+                <div class="absolute h-[1px] w-full bottom-0 bg-paraColor"></div>
+            </div>
+
+            <div class="flex items-center justify-center flex-col gap-y-5">
+                <img src="assets/founderImage.webp" alt="" >
+                <div class="flex flex-col gap-y-2 items-center">
+                    <h2 class="text-lg md:text-2xl lg:text-3xl font-semibold">Love Babbar</h2>
+                    <h3 class="lg:text-2xl text-paraColor">Founder, Code-Help</h3>
+                </div>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-y-10 grid-cols-1">
+                <div class="flex flex-col gap-y-3 place-items-center">
+                    <img src="assets/company1.png" alt="">
+                    <h2 class="text-base sm:text-lg lg:text-xl opacity-70">Ex-Amazon, SWE</h2>
+                </div>
+                <div class="flex flex-col gap-y-3 place-items-center">
+                    <img src="assets/company2.png" alt="">
+                    <h2 class="text-base sm:text-lg lg:text-xl opacity-70">Ex-Microsoft, SWE</h2>
+                </div>
+                <div class="flex flex-col gap-y-3 place-items-center"> 
+                    <img src="assets/company3.png" alt="">
+                    <h2 class="text-base sm:text-lg lg:text-xl opacity-70">Google ASC, India</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Companies -->
+    <section>
+        <div></div>
+    </section>
+
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
     <script>
         feather.replace();
-        var typeData = new Typed("#typed", {
+        let typeData = new Typed("#typed", {
             strings: [
                 "Love",
                 "Babbar"
