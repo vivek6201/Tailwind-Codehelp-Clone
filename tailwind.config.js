@@ -17,13 +17,53 @@ module.exports = {
         offWhite: "#f7f8fc"
       },
       animation:{
-        moveY:"move 5s linear infinite"
+        moveY:"move 5s linear infinite",
+        outerCircleFullRotate: "outerRotate 50s linear infinite",
+        innerCircleFullRotate: "innerRotate 50s linear infinite",
+        innerLogoRotate:"innerLogo 50s linear infinite",
+        outerLogoRotate:"outerLogo 50s linear infinite"
       },
       keyframes:{
         move:{
-          "0%, 100%":{transform: "translateY(0)"},
-          "50%": {transform:"translateY(1rem)"}
-        }
+          "0%, 100%":{
+            transform: "translateY(0)"
+          },
+          "50%": {
+            transform:"translateY(1rem)"
+          }
+        },
+        outerRotate:{
+          "0%":{
+            transform:"rotate(0deg)"
+          },
+          "100%":{
+            transform: "rotate(360deg)"
+          }
+        },
+        innerRotate:{
+          "0%":{
+            transform:"rotate(0deg)"
+          },
+          "100%":{
+            transform: "rotate(-360deg)"
+          }
+        },
+        innerLogo:{
+          "0%":{
+            transform:"rotate(0deg)"
+          },
+          "100%":{
+            transform: "rotate(360deg)"
+          }
+        },
+        outerLogo:{
+          "0%":{
+            transform:"rotate(0deg)"
+          },
+          "100%":{
+            transform: "rotate(-360deg)"
+          }
+        },
       }
     },
   },
