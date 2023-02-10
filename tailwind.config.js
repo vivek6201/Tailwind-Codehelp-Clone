@@ -13,7 +13,8 @@ module.exports = {
         innerAni:"#f1e4ff",
         cardDis:"#f1e4ff",
         lightBlack:"#363a45",
-        lightBlack2:"#4a4f5c"
+        lightBlack2:"#4a4f5c",
+        offWhite: "#f7f8fc"
       },
       animation:{
         moveY:"move 5s linear infinite"
