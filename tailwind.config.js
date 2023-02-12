@@ -21,7 +21,7 @@ module.exports = {
         outerCircleFullRotate: "outerRotate 50s linear infinite",
         innerCircleFullRotate: "innerRotate 50s linear infinite",
         innerLogoRotate:"innerLogo 50s linear infinite",
-        outerLogoRotate:"outerLogo 50s linear infinite"
+        outerLogoRotate:"outerLogo 50s linear infinite",
       },
       keyframes:{
         move:{
