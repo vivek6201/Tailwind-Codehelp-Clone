@@ -13,8 +13,8 @@
 
 <body>
     <div class="relative bg-[url('assets/blurry-gradient.svg')] bg-no-repeat bg-cover bg-opacity-0 ">
-        <nav
-            class="w-full fixed top-0 shadow-[0_4px_10px_0_rgba(157,157,157,0.2)] backdrop-blur-md z-[999] min-h-[80px] flex items-center">
+        <nav class="w-full fixed top-0 shadow-[0_4px_10px_0_rgba(157,157,157,0.2)] backdrop-blur-md z-[999] min-h-[80px] flex items-center transition-all duration-300"
+            id="navbar">
 
             <!-- Large Screen -->
             <div class="flex max-w-[1300px] w-11/12 justify-between mx-auto">
@@ -44,7 +44,8 @@
             </div>
 
             <!-- Mobile Nav -->
-            <div class="lg:hidden hidden top-full left-0 right-0 absolute py-10 backdrop-blur-md bg-offWhite animate-angryAnimate" id="mobile-menu">
+            <div class="lg:hidden hidden top-full left-0 right-0 absolute py-10 backdrop-blur-md bg-offWhite animate-angryAnimate"
+                id="mobile-menu">
                 <ul class="flex flex-col gap-y-6 items-center py-7">
                     <li class="md:text-lg font-rubik cursor-pointer">About Us</li>
                     <li class="md:text-lg font-rubik cursor-pointer">Courses</li>
@@ -103,13 +104,13 @@
                 <div class="w-full relative md:w-[50%] py-[5rem] h-full flex items-center">
                     <img src="assets/heroSvg.svg" alt="" class="w-full h-full" loading="lazy">
                     <img src="assets/heroAnimationImage1.png" alt=""
-                        class="w-[5rem] sm:w-28 lg:w-[10rem] absolute top-16 left-28 sm:left-44 lg:left-56 z-20 animate-moveY"
+                        class="w-[5rem] sm:w-28 xl:w-[10rem] absolute top-16 left-28 sm:left-44 lg:left-56 z-20 animate-moveY"
                         loading="lazy">
                     <img src="assets/heroAnimationImage2.png" alt=""
-                        class="w-[5rem] sm:w-28 lg:w-[10rem] absolute bottom-40 lg:bottom-56 right-16 lg:right-28 z-20 animate-moveY"
+                        class="w-[5rem] sm:w-28 xl:w-[10rem] absolute bottom-40 lg:bottom-56 right-16 lg:right-28 z-20 animate-moveY"
                         loading="lazy">
                     <img src="assets/heroAnimationImage3.png" alt=""
-                        class="w-[5rem] sm:w-28 lg:w-[10rem] absolute bottom-40 lg:bottom-56 left-16 lg:left-24 z-20 animate-moveY"
+                        class="w-[5rem] sm:w-28 xl:w-[10rem] absolute bottom-40 lg:bottom-56 left-16 lg:left-24 z-20 animate-moveY"
                         loading="lazy">
                 </div>
             </div>
@@ -367,24 +368,39 @@
             class="flex flex-col md:flex-row justify-between gap-y-5 md:gap-y-0 h-full items-center max-w-[1080px] w-11/12 mx-auto">
             <div class="w-full md:w-[50%] flex justify-center items-center md:items-start gap-y-4 md:gap-y-7 flex-col">
                 <h3 class="text-brand text-base font-semibold md:text-xl lg:text-2xl">PLACEMENTS</h3>
-                <h2 class="font-semibold text-lg sm:text-2xl md:text-4xl max-w-[200px] md:max-w-[300px] text-center md:text-start">Get Offers from
+                <h2
+                    class="font-semibold text-lg sm:text-2xl md:text-4xl max-w-[200px] md:max-w-[300px] text-center md:text-start">
+                    Get Offers from
                     Top Companies</h2>
-                <p class="text-paraColor text-lg md:text-2xl text-center md:text-start">Our finest get offers from top-notch companies.</p>
+                <p class="text-paraColor text-lg md:text-2xl text-center md:text-start">Our finest get offers from
+                    top-notch companies.</p>
             </div>
             <div class="w-full md:w-[50%] h-full flex justify-center items-center relative overflow-hidden">
-                <div class="absolute w-[14rem] h-[14rem] sm:w-[18rem] sm:h-[18rem] rounded-full border border-purple-100 animate-outerCircleFullRotate">
-                    <img src="assets/animationImg1.png" alt="" class="absolute top-6 -left-5 w-[4.5rem] h-[4.5rem] md:w-20 md:h-20 animate-outerLogoRotate">
-                    <img src="assets/animationImg2.png" alt="" class="absolute left-0 bottom-0 w-[4.5rem] h-[4.5rem] md:w-20 md:h-20 animate-outerLogoRotate">
-                    <img src="assets/animationImg3.png" alt="" class="absolute right-10 -bottom-6 w-[4.5rem] h-[4.5rem] md:w-20 md:h-20 animate-outerLogoRotate">
-                    <img src="assets/animationImg4.png" alt="" class="absolute right-16 -top-8 w-[4.5rem] h-[4.5rem] md:w-20 md:h-20 animate-outerLogoRotate">
-                    <img src="assets/animationImg5.png" alt="" class="absolute -right-9 top-[20%] translate-y-[50%] w-[4.5rem] h-[4.5rem] md:w-20 md:h-20 animate-outerLogoRotate">
+                <div
+                    class="absolute w-[14rem] h-[14rem] sm:w-[18rem] sm:h-[18rem] rounded-full border border-purple-100 animate-outerCircleFullRotate">
+                    <img src="assets/animationImg1.png" alt=""
+                        class="absolute top-6 -left-5 w-[4.5rem] h-[4.5rem] md:w-20 md:h-20 animate-outerLogoRotate">
+                    <img src="assets/animationImg2.png" alt=""
+                        class="absolute left-0 bottom-0 w-[4.5rem] h-[4.5rem] md:w-20 md:h-20 animate-outerLogoRotate">
+                    <img src="assets/animationImg3.png" alt=""
+                        class="absolute right-10 -bottom-6 w-[4.5rem] h-[4.5rem] md:w-20 md:h-20 animate-outerLogoRotate">
+                    <img src="assets/animationImg4.png" alt=""
+                        class="absolute right-16 -top-8 w-[4.5rem] h-[4.5rem] md:w-20 md:h-20 animate-outerLogoRotate">
+                    <img src="assets/animationImg5.png" alt=""
+                        class="absolute -right-9 top-[20%] translate-y-[50%] w-[4.5rem] h-[4.5rem] md:w-20 md:h-20 animate-outerLogoRotate">
                 </div>
-                <div class="absolute w-[10rem] h-[10rem] sm:w-[14rem] sm:h-[14rem] border-[2rem] md:border-[3rem] animate-innerCircleFullRotate border-purple-100 rounded-full">
-                    <img src="assets/animationImg6.png" alt="" class="absolute -top-6 -left-3 w-[4.5rem] h-[4.5rem] md:w-20 md:h-20 animate-innerLogoRotate">
-                    <img src="assets/animationImg7.png" alt="" class="absolute -top-5 -right-5 w-[4.5rem] h-[4.5rem] md:w-20 md:h-20 animate-innerLogoRotate">
-                    <img src="assets/animationImg8.png" alt="" class="absolute bottom-0 -left-8 w-[4.5rem] h-[4.5rem] md:w-20 md:h-20 animate-innerLogoRotate">
-                    <img src="assets/animationImg9.png" alt="" class="absolute bottom-0 -right-8 w-[4.5rem] h-[4.5rem] md:w-20 md:h-20 animate-innerLogoRotate">
-                    <img src="assets/animationImg10.png" alt="" class="absolute left-[15%] -bottom-9 w-[4.5rem] h-[4.5rem] md:w-20 md:h-20 animate-innerLogoRotate">
+                <div
+                    class="absolute w-[10rem] h-[10rem] sm:w-[14rem] sm:h-[14rem] border-[2rem] md:border-[3rem] animate-innerCircleFullRotate border-purple-100 rounded-full">
+                    <img src="assets/animationImg6.png" alt=""
+                        class="absolute -top-6 -left-3 w-[4.5rem] h-[4.5rem] md:w-20 md:h-20 animate-innerLogoRotate">
+                    <img src="assets/animationImg7.png" alt=""
+                        class="absolute -top-5 -right-5 w-[4.5rem] h-[4.5rem] md:w-20 md:h-20 animate-innerLogoRotate">
+                    <img src="assets/animationImg8.png" alt=""
+                        class="absolute bottom-0 -left-8 w-[4.5rem] h-[4.5rem] md:w-20 md:h-20 animate-innerLogoRotate">
+                    <img src="assets/animationImg9.png" alt=""
+                        class="absolute bottom-0 -right-8 w-[4.5rem] h-[4.5rem] md:w-20 md:h-20 animate-innerLogoRotate">
+                    <img src="assets/animationImg10.png" alt=""
+                        class="absolute left-[15%] -bottom-9 w-[4.5rem] h-[4.5rem] md:w-20 md:h-20 animate-innerLogoRotate">
                 </div>
             </div>
         </div>
@@ -393,11 +409,14 @@
     <!-- Courses Section -->
     <section class="w-full bg-offWhite font-rubik">
         <div class="max-w-[1200px] w-11/12 mx-auto flex flex-col gap-y-10 items-center py-16">
-            <h2 class="text-xl sm:text-3xl text-lightBlack md:text-4xl lg:text-5xl font-semibold">What would you like to <span class="text-brand">learn?</span></h2>
+            <h2 class="text-xl sm:text-3xl text-lightBlack md:text-4xl lg:text-5xl font-semibold">What would you like to
+                <span class="text-brand">learn?</span></h2>
             <div class="flex flex-wrap gap-x-6 gap-y-10 justify-center md:mt-10">
-                <div class="bg-white rounded-md p-5 w-full md:w-[40%] lg:w-[32%] shadow-lg flex flex-col gap-y-3 cursor-pointer">
+                <div
+                    class="bg-white rounded-md p-5 w-full md:w-[40%] lg:w-[32%] shadow-lg flex flex-col gap-y-3 cursor-pointer">
                     <img src="assets/card1.jpeg" alt="" class="rounded-md w-full">
-                    <h2 class="text-lightBlack text-xl max-w-[90%] font-semibold">Cracking Object Oriented Design Interviews</h2>
+                    <h2 class="text-lightBlack text-xl max-w-[90%] font-semibold">Cracking Object Oriented Design
+                        Interviews</h2>
                     <div class="w-3/4 h-1 bg-gray-100"></div>
                     <div class="flex gap-x-3 items-center">
                         <p class="text-brand font-semibold text-lg">₹555</p>
@@ -405,9 +424,11 @@
                         <p class="font-semibold text-sm text-white bg-green-600 py-1 px-2 rounded-md">44% off</p>
                     </div>
                 </div>
-                <div class="bg-white rounded-md p-5 w-full md:w-[40%] lg:w-[32%] shadow-lg flex flex-col gap-y-3 cursor-pointer">
+                <div
+                    class="bg-white rounded-md p-5 w-full md:w-[40%] lg:w-[32%] shadow-lg flex flex-col gap-y-3 cursor-pointer">
                     <img src="assets/card2.jpg" alt="" class="rounded-md w-full">
-                    <h2 class="text-lightBlack text-xl max-w-[90%] font-semibold">Web Development Master Course @dot Batch</h2>
+                    <h2 class="text-lightBlack text-xl max-w-[90%] font-semibold">Web Development Master Course @dot
+                        Batch</h2>
                     <div class="w-3/4 h-1 bg-gray-100"></div>
                     <div class="flex gap-x-3 items-center">
                         <p class="text-brand font-semibold text-lg">₹555</p>
@@ -415,9 +436,11 @@
                         <p class="font-semibold text-sm text-white bg-green-600 py-1 px-2 rounded-md">42% off</p>
                     </div>
                 </div>
-                <div class="bg-white rounded-md p-5 w-full md:w-[40%] lg:w-[32%] shadow-lg flex flex-col gap-y-3 cursor-pointer">
+                <div
+                    class="bg-white rounded-md p-5 w-full md:w-[40%] lg:w-[32%] shadow-lg flex flex-col gap-y-3 cursor-pointer">
                     <img src="assets/card3.jpeg" alt="" class="rounded-md w-full">
-                    <h2 class="text-lightBlack text-xl max-w-[90%] font-semibold">Data Structures & Algorithms BootCamp @Supreme Batch</h2>
+                    <h2 class="text-lightBlack text-xl max-w-[90%] font-semibold">Data Structures & Algorithms BootCamp
+                        @Supreme Batch</h2>
                     <div class="w-3/4 h-1 bg-gray-100"></div>
                     <div class="flex gap-x-3 items-center">
                         <p class="text-brand font-semibold text-lg">₹555</p>
@@ -429,11 +452,14 @@
 
             <div class="w-11/12 h-[1px] bg-gray-400 mt-10 md:mt-20"></div>
 
-            <h2 class="text-xl sm:text-3xl text-lightBlack md:text-4xl lg:text-5xl font-semibold">Upcoming <span class="text-brand">Courses</span></h2>
+            <h2 class="text-xl sm:text-3xl text-lightBlack md:text-4xl lg:text-5xl font-semibold">Upcoming <span
+                    class="text-brand">Courses</span></h2>
             <div class="flex flex-wrap gap-10 justify-center md:mt-10">
-                <div class="bg-white rounded-md p-5 w-full md:w-[40%] lg:w-[32%] shadow-lg flex flex-col gap-y-3 cursor-pointer">
+                <div
+                    class="bg-white rounded-md p-5 w-full md:w-[40%] lg:w-[32%] shadow-lg flex flex-col gap-y-3 cursor-pointer">
                     <img src="assets/card4.png" alt="" class="rounded-md w-full">
-                    <h2 class="text-lightBlack text-xl max-w-[90%] font-semibold">Cracking Object Oriented Design Interviews</h2>
+                    <h2 class="text-lightBlack text-xl max-w-[90%] font-semibold">Cracking Object Oriented Design
+                        Interviews</h2>
                     <div class="w-3/4 h-1 bg-gray-100"></div>
                     <div class="flex gap-x-3 items-center">
                         <p class="text-brand font-semibold text-lg">₹555</p>
@@ -441,9 +467,11 @@
                         <p class="font-semibold text-sm text-white bg-green-600 py-1 px-2 rounded-md">44% off</p>
                     </div>
                 </div>
-                <div class="bg-white rounded-md p-5 w-full md:w-[40%] lg:w-[32%] shadow-lg flex flex-col gap-y-3 cursor-pointer">
+                <div
+                    class="bg-white rounded-md p-5 w-full md:w-[40%] lg:w-[32%] shadow-lg flex flex-col gap-y-3 cursor-pointer">
                     <img src="assets/card5.jpeg" alt="" class="rounded-md w-full">
-                    <h2 class="text-lightBlack text-xl max-w-[90%] font-semibold">Web Development Master Course @dot Batch</h2>
+                    <h2 class="text-lightBlack text-xl max-w-[90%] font-semibold">Web Development Master Course @dot
+                        Batch</h2>
                     <div class="w-3/4 h-1 bg-gray-100"></div>
                     <div class="flex gap-x-3 items-center">
                         <p class="text-brand font-semibold text-lg">₹555</p>
@@ -460,7 +488,8 @@
         <div class="max-w-[1080px] flex flex-col w-10/12 mx-auto gap-y-28">
             <div class="flex flex-col gap-y-4 items-center">
                 <h2 class="text-3xl lg:text-5xl font-semibold text-center">Join our Coding family</h2>
-                <p class="text-lg md:text-xl max-w-xl md:max-w-2xl text-center opacity-60">If you would like to keep up on the latest posts and courses, come by and connect with us on the following links.</p>
+                <p class="text-lg md:text-xl max-w-xl md:max-w-2xl text-center opacity-60">If you would like to keep up
+                    on the latest posts and courses, come by and connect with us on the following links.</p>
             </div>
             <div class="flex gap-10 flex-wrap items-center justify-center">
                 <div class="flex flex-col items-center justify-center gap-y-3">
@@ -502,7 +531,8 @@
                 <div class="flex flex-col gap-y-3 items-center md:items-start py-10 ">
                     <img src="assets/footerLogoSvg.svg" alt="" class="w-[5rem]">
                     <h2 class="text-center text-xl font-semibold">CODE HELP</h2>
-                    <p class="max-w-[200px] md:max-w-none text-center md:text-left ">The Ultimate guide to Ace SDE Interviews.</p>
+                    <p class="max-w-[200px] md:max-w-none text-center md:text-left ">The Ultimate guide to Ace SDE
+                        Interviews.</p>
                 </div>
                 <div class="flex flex-col gap-y-8 my-5">
                     <h2 class="text-base font-semibold uppercase text-center md:text-left">Menu</h2>
@@ -523,7 +553,8 @@
                 </div>
                 <div class="w-[1px] h-5/6 bg-white my-5 hidden md:block"></div>
                 <div class="flex flex-col gap-y-8 my-5 text-center md:text-left">
-                    <h2 class="text-base font-semibold uppercase text-center md:text-left flex flex-col gap-y-4">Get in Touch</h2>
+                    <h2 class="text-base font-semibold uppercase text-center md:text-left flex flex-col gap-y-4">Get in
+                        Touch</h2>
                     <p>Email: <a href="#">support@codehelp.in</a></p>
                 </div>
             </div>
@@ -548,10 +579,19 @@
             backDelay: 1000,
         });
 
+        const navbar = document.querySelector('#navbar');
+        window.onscroll = () => {
+            if (window.scrollY > 900) {
+                navbar.classList.add('bg-offWhite');
+            } else {
+                navbar.classList.remove('bg-offWhite');
+            }
+        };
+
         const menuBtn = document.querySelector("#menu-btn");
         const menuList = document.querySelector("#mobile-menu");
 
-        menuBtn.addEventListener("click",() => {
+        menuBtn.addEventListener("click", () => {
             menuList.classList.toggle("hidden");
         })
     </script>
